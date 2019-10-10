@@ -2,7 +2,7 @@
 ## Documentation
 HAProxy v1.9.x
 
-### Example Usage
+## Example Usage
 `docker-compose.yaml`
 ```
   haproxy:
@@ -14,6 +14,7 @@ HAProxy v1.9.x
      - varnish
 ```
 
+## Configuration
 ### frontend-http
 Listen port 80
 
@@ -32,7 +33,7 @@ Response Header `Strict-Transport-Security: max-age=31536000; includeSubDomains;
 - hostname: varnish
 - port: 80
 
-## Configuration
+## Extensability
 Default: `CMD ["haproxy","-V","-f","/etc/haproxy/haproxy.cfg"]`
 
 User can override default CMD in `docker-compose.yaml` to inject whatever configs they choose.
