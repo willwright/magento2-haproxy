@@ -1,4 +1,4 @@
-FROM haproxy:1.6.3
+FROM haproxy:1.9
 
 MAINTAINER wwright <will@magesmith.com>
 
