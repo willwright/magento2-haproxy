@@ -14,7 +14,7 @@ HAProxy v1.9.x
      - varnish
 ```
 
-## Configuration
+## Defaults
 ### frontend-http
 Listen port 80
 
