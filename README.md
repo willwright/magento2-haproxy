@@ -1,4 +1,6 @@
 # HAProxy for Magento2
+__THIS IS NOT FOR PRODUCTION USE__
+
 ## Documentation
 HAProxy v1.9.x
 
